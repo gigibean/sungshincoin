@@ -1,0 +1,87 @@
+<!-- 로그인 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/navForSt.css">
+
+	<title>성신코인: 로그인</title>
+	<link rel="icon" type="image/png" href="../imgs/sujunggoo.png"/>
+
+	<!-- CDN for navforst.css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div id="login_threejs_gooLogin_scene"></div>
+<header>
+	<a href="index.html">
+		<img src="imgs/logo/logiForMain.svg" style="z-index: 1000; width:172px;">
+	</a>
+</header>
+
+<br>
+<div class="login">
+	<div class="headertext">
+		<h1 style="color: #fff; font-family: 'Roboto Condensed', sans-serif; letter-spacing: -3px;">LOGIN:ENTER YOURS !</h1>
+		<br>
+	</div>
+	<form method="post" action="login_process.jsp" name="loginForm" id = "loginForm" autocomplete="off">
+		<input type="text" placeholder="ID NUMBER" name="us_id"  class="textlogin"><br>
+		<input type="password" placeholder="PASSWORD" name="us_pw" id="psswdlogin"><br><br><br>
+		<input type="button" onclick="javascript:check();">
+	</form>
+
+	<div class="modal-footer">
+		<a href="./join/join_user.jsp">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="./join/find_pw.jsp">Find Password</a>&nbsp;&nbsp;
+		<br><br>
+	</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/102/three.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/obj.js"></script>
+<script type="text/javascript" src="js/mtl.js"></script>
+<script type="text/javascript" src="js/inputFill.js"></script>
+<script type="text/javascript" src="js/gooLogin1.js"></script>
+
+<script>
+	function check() {
+		if (document.loginForm.us_id.value == "" && document.loginForm.us_pw.value == "") {
+			alert('아이디와 비밀번호를 입력해주세요.');
+		} else if (document.loginForm.us_id.value == "") {
+			alert('아이디를 입력해주세요.');
+		} else if (document.loginForm.us_pw.value == "") {
+			alert('비밀번호를 입력해주세요.');
+		} else {
+			document.loginForm.submit()
+		}
+	}
+
+    $(document).ready(function(){
+        $('body').keypress(function(e){
+            if(e.keyCode!=13) return;
+            if(!$('input[name="us_id"]').val()) $('input[name="us_id"]').focus();
+            if(!$('input[name="us_pw"]').val()) $('input[name="us_pw"]').focus();
+            $('#loginForm').submit();
+        });
+    });
+</script>
+</body>
+</html>

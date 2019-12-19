@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450">
+  <g id="card-white-on" fill="rgba(121,120,128,0.3)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="5 5">
+    <rect width="300" height="450" rx="25" stroke="none"/>
+    <rect x="0.75" y="0.75" width="298.5" height="448.5" rx="24.25" fill="none"/>
+  </g>
+</svg>

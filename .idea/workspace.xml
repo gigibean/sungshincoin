@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="2019_sw_local:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ebc487b-2937-453f-abb0-6afa7ec00107" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="247" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="2019_sw_local" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="jsf" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1ObEC37tiGKR9ZvO7wU9WV3vwOM" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Agape Lee\Documents\2019_sw_local - 0818 broken\web\reservation" />
+      <recent name="C:\Users\Agape Lee\Documents\2019_sw_local\web" />
+      <recent name="C:\Users\Agape Lee\Documents\2019_sw_local\web\Table\vendor\bootstrap\js" />
+      <recent name="C:\Users\Agape Lee\Documents\2019_sw_local\web\imgs\admin" />
+      <recent name="C:\Users\Agape Lee\Documents\2019_sw_local\web\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\2019_sw_local_v4\out\artifacts\2019_sw_local_war_exploded\mypage" />
+      <recent name="C:\2019_sw_local_v4\web\mypage" />
+      <recent name="C:\2019_sw_local_v4" />
+      <recent name="C:\2019_sw_local_v4\web\js" />
+      <recent name="C:\Users\rhals\IdeaProjects\20190823 To 민지\2019_sw_local\out\artifacts\2019_sw_local_war_exploded\imgs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="DappTokenSale.buyTokens" type="SolidityConfigurationType" factoryName="Solidity" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="2019_sw_local" />
+      <option name="VMParameters" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="workingDirectory" value="" />
+      <option name="contractName" value="DappTokenSale" />
+      <option name="contractFile" value="$PROJECT_DIR$/contracts/DappTokenSale.sol" />
+      <option name="functionName" value="buyTokens" />
+      <option name="vmParameters" />
+      <option name="programParameters" />
+      <option name="workingDirectory" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="ajreEnabled" value="false" />
+      <option name="ajre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="2019_sw_local:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_2019_sw_local_2" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="PRESERVE_SESSIONS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="12803" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="2019_sw_local:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Solidity.DappTokenSale.buyTokens" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ebc487b-2937-453f-abb0-6afa7ec00107" name="Default Changelist" comment="" />
+      <created>1564237764504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564237764504</updated>
+      <workItem from="1564237769034" duration="37121000" />
+      <workItem from="1564380746894" duration="881000" />
+      <workItem from="1564381653421" duration="3002000" />
+      <workItem from="1564387536780" duration="42443000" />
+      <workItem from="1564471105379" duration="10594000" />
+      <workItem from="1564547509565" duration="18894000" />
+      <workItem from="1564582242935" duration="2943000" />
+      <workItem from="1564662149966" duration="13438000" />
+      <workItem from="1564720405270" duration="13391000" />
+      <workItem from="1564745902112" duration="12229000" />
+      <workItem from="1564811968915" duration="12181000" />
+      <workItem from="1564974681430" duration="15130000" />
+      <workItem from="1564995242585" duration="25287000" />
+      <workItem from="1565157161626" duration="15218000" />
+      <workItem from="1565181190962" duration="88000" />
+      <workItem from="1565181400394" duration="1150000" />
+      <workItem from="1565230728637" duration="65184000" />
+      <workItem from="1565405802468" duration="61759000" />
+      <workItem from="1565579333474" duration="12605000" />
+      <workItem from="1565624494156" duration="1441000" />
+      <workItem from="1565682252444" duration="71541000" />
+      <workItem from="1565858825630" duration="347000" />
+      <workItem from="1565859192706" duration="7178000" />
+      <workItem from="1565886073554" duration="558000" />
+      <workItem from="1565888743617" duration="2420000" />
+      <workItem from="1565937537357" duration="964000" />
+      <workItem from="1565938592763" duration="257000" />
+      <workItem from="1565946043430" duration="6458000" />
+      <workItem from="1565961787673" duration="5489000" />
+      <workItem from="1566019479855" duration="23598000" />
+      <workItem from="1566099238576" duration="12638000" />
+      <workItem from="1566113385069" duration="319000" />
+      <workItem from="1566116270733" duration="665000" />
+      <workItem from="1566123872342" duration="2090000" />
+      <workItem from="1566127579143" duration="2434000" />
+      <workItem from="1566131140047" duration="7874000" />
+      <workItem from="1566184628176" duration="9288000" />
+      <workItem from="1566199734457" duration="29501000" />
+      <workItem from="1566237792108" duration="12694000" />
+      <workItem from="1566270314308" duration="3975000" />
+      <workItem from="1566368983042" duration="15496000" />
+      <workItem from="1566444623834" duration="8063000" />
+      <workItem from="1566461819975" duration="6653000" />
+      <workItem from="1566469401007" duration="7555000" />
+      <workItem from="1566484101814" duration="9558000" />
+      <workItem from="1566493870266" duration="1009000" />
+      <workItem from="1566495270120" duration="5556000" />
+      <workItem from="1566501626720" duration="843000" />
+      <workItem from="1566502526420" duration="349000" />
+      <workItem from="1566502902811" duration="17000" />
+      <workItem from="1566503148557" duration="1830000" />
+      <workItem from="1566532675821" duration="9362000" />
+      <workItem from="1566542317035" duration="644000" />
+      <workItem from="1566548013388" duration="1217000" />
+      <workItem from="1566553047077" duration="14494000" />
+      <workItem from="1566632003716" duration="375000" />
+      <workItem from="1566632423240" duration="8467000" />
+      <workItem from="1566710322952" duration="1292000" />
+      <workItem from="1566729945921" duration="7352000" />
+      <workItem from="1566739854596" duration="7476000" />
+      <workItem from="1566751386324" duration="5309000" />
+      <workItem from="1566798912380" duration="2800000" />
+      <workItem from="1566805430653" duration="1519000" />
+      <workItem from="1566814557403" duration="3373000" />
+      <workItem from="1566831727286" duration="14864000" />
+      <workItem from="1566879144460" duration="3208000" />
+      <workItem from="1566883206268" duration="1514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/2019_sw_local$Tomcat.ic" NAME="Tomcat Coverage Results" MODIFIED="1565785672156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

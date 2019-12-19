@@ -1,0 +1,413 @@
+
+body {
+    background: url(../imgs/backgroundreser.svg);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    font-family: 'KOMACON';
+    overflow: hidden;
+}
+
+#cloud-front {
+    background:url(../imgs/home-clouds-fg1.png) repeat-x 0 0 transparent;
+    width: 100%;
+    height: 687px;
+    min-height: 687px;
+    position: absolute;
+    bottom:-22%;
+    left:0;
+    z-index: -1;
+    -webkit-transform:translate3d(0,0,0.01);
+    transform:translate3d(0,0,0.01);
+    will-change: transform;
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    left: 230px;
+    top: 170px;
+    z-index: -2;
+    /* TO DO: MAKE canvas righ */
+}
+
+.suryong img {
+    display: inline-block;
+    position: fixed;
+    left: 62%;
+    top: 14%;
+    z-index: -2;
+}
+
+@media (min-height: 916px) {
+    .maincard {
+        background: url(../imgs/billLarge.png);
+        width: 838px;
+        height: 816px;
+        margin-top: -360px;
+        margin-left: 15px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .contentForMainCard {
+        width: 800px;
+        height: 780px;
+
+    }
+    .maincard h3 {
+        font-size: 43px;
+        color: #000;
+        font-weight: bold;
+        text-space: 5;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .maincard h4 {
+        font-size: 26px;
+        color: #2d2d2d;
+        display: table-cell;
+    }
+    .maincard hr {
+        border-radius: 3px;
+        border: 2px solid #272727;
+        margin: 50px;
+        width: 730px;
+    }
+
+
+    .contentForMainCard h5 {
+        font-size: 25px;
+        color: #272727;
+        display: table-cell;
+        text-align: left;
+    }
+
+    .contentForMainCard p {
+        font-size: 24px;
+        color: #272727;
+        display: block;
+        text-align: right;
+    }
+
+    .manage {
+        display: table;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-height: 916px) {
+    .maincard {
+        background: url(../imgs/billSmall.png);
+        width: 800px;
+        height: 630px;
+        margin-top: -280px;
+        margin-left: 15px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .contentForMainCard {
+        width: 700px;
+        height: 400px;
+        overflow-y: auto;
+
+    }
+    .maincard h3 {
+        font-size: 40px;
+        color: #000;
+        font-weight: bold;
+        text-space: 5;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    .maincard h4 {
+        font-size: 25px;
+        color: #2d2d2d;
+        display: table-cell;
+    }
+    .maincard hr {
+        border-radius: 3px;
+        border: 2px solid #272727;
+        margin: 50px;
+        width: 630px;
+    }
+
+
+    .contentForMainCard h5 {
+        font-size: 24px;
+        color: #272727;
+        display: table-cell;
+        text-align: left;
+    }
+
+    .contentForMainCard p {
+        font-size: 23px;
+        color: #272727;
+        display: block;
+        text-align: right;
+    }
+
+    .manage {
+        display: table;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+
+    .agreeText {
+        width: 580px;
+        height: 200px;
+        margin: 0 auto;
+
+    }
+
+    .agreeText p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .checkForCard {
+        width: 550px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .dropdownForText {
+        text-align: left;
+        display: table-cell;
+    }
+    .checkboxForCard{
+        text-align: right;
+        display: table-cell;
+    }
+    .agreementForCard input[type=button] {
+        border-color: #272727;
+        border-width: 1.5px;
+        background: none;
+        border-style: solid;
+        color: #272727;
+        width: 600px;
+        height: 50px;
+    }
+    .agreementForCard input[type=button]:focus {
+        outline: none;
+        opacity: 0.8;
+    }
+
+    .agreementForCard input[type=button]:hover {
+        opacity: 0.5;
+    }
+
+
+}
+
+.btn{
+    display: inline-block;
+    /*     font-weight: 400; */
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 15px !important;
+    font-weight: 400;
+    color : #fff !important;
+
+
+}
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 15px;
+    font-wheight: 400;
+}
+.btn:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-wheight: 400;
+}
+.btn:link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 15px;
+    font-wheight: 400;
+}
+.btn:active {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-wheight: 400;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    /* float: left; */
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.dropdown-menu .show {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 15px !important;
+    font-family: 'KOMACON';
+}
+
+.dropdown .show {
+    display: inline !important;
+}
+
+.btn-secondary {
+    color: #fff;
+}
+
+#dropupText {
+    display: none;
+}
+
+.agreeText {
+    /*height: 200px;*/
+    overflow-wrap: normal;
+    display: none;
+}
+::-webkit-scrollbar{width: 2px;}
+
+
+.checkboxForCard input[type="checkbox"] + label {
+    vertical-align: middle;
+}
+
+
+/*
+
+/*   .checkboxForCard input[type="checkbox"] {*/
+
+/*       position: absolute;*/
+/*       width: 1px;*/
+/*       height: 1px;*/
+/*       padding: 0;*/
+/*       margin: -1px;*/
+/*       overflow: hidden;*/
+/*       clip:rect(0,0,0,0);*/
+/*       border: 0*/
+/*   }*/
+
+
+
+/*
+
+/*   .checkboxForCard input[type="checkbox"] + label {*/
+
+/*       display: inline-block;*/
+
+/*       position: relative;*/
+
+/*       cusor: pointer;*/
+
+/*       -webkit-user-select: none;*/
+
+/*       -moz-user-select: none;*/
+
+/*       -ms-user-select: none;*/
+
+/*       user-select: none;*/
+
+/*   }*/
+
+
+
+/*
+
+/*   .checkboxForCard input[type="checkbox"] + label:before {*/
+
+/*       content: ' ';*/
+
+/*       display: inline-block;*/
+
+/*       width: 31px;*/
+
+/*       height: 31px;*/
+
+/*       line-height: 31px;*/
+
+/*       background: url("../imgs/checkboxOff.png");*/
+
+/*       !*margin: -2px 8px 0 0;*!*/
+
+/*       !*text-align: center;*!*/
+
+/*       vertical-align: middle;*/
+
+/*       !*background: #fafafa;*!*/
+
+/*       !*border: 1px solid #cacece;*!*/
+
+/*       !*border-radius: 3px;*!*/
+
+/*       !*box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);*!*/
+
+/*   }*/
+
+
+
+/*.checkboxForCard input[type="checkbox"] + label:active:before,*/
+
+/*.checkboxForCard input[type="checkbox"]:checked + label:active:before {*/
+/*    !*box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);*!*/
+/*    background: url("../imgs/checkOn.png");*/
+/*}*/
+
+
+
+/*.checkboxForCard input[type="checkbox"]:checked + label:before {*/
+
+/*    !*content: '\2713';*!*/
+
+/*    !*color: #314ca2;*!*/
+
+/*    text-shadow: 1px 1px white;*/
+
+/*    !*background: #f1f4ff;*!*/
+
+/*    !*border-color: #adb8c0;*!*/
+
+/*    !*box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);*!*/
+/*    background: url("../imgs/checkOn.png");*/
+/*}*/
+

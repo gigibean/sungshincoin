@@ -1,0 +1,239 @@
+/* .wrap-table100 {
+    width: 1200px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+.row {
+    flex-wrap: nowrap !important;
+    display: table !important;
+} */
+
+@font-face { font-family: 'KOMACON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {
+    background: url(../imgs/backgroundreser.svg);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    font-family: 'KOMACON';
+    overflow: hidden;
+}
+
+#cloud-front {
+    background:url(/imgs/home-clouds-fg1.png) repeat-x 0 0 transparent;
+    width: 100%;
+    height: 687px;
+    min-height: 687px;
+    position: absolute;
+    bottom:-22%;
+    left:0;
+    z-index: -1;
+    -webkit-transform:translate3d(0,0,0.01);
+    transform:translate3d(0,0,0.01);
+    will-change: transform;
+}
+
+.screen {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    overflow: scroll;
+    /* background: url(../imgs/shad.svg); */
+    background-color: rgb(0,0,0,0.5);
+    z-index: -1;
+    background-size: cover;
+    position: absolute;
+}
+
+::-webkit-scrollbar{width: 2px;}
+/*
+#radioForCheck {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+} */
+
+.limiter {
+    width: 1410px;
+    height: 530px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: transparent !important;
+
+}
+
+.container-table100 {
+    margin: 0 auto;
+    width: 100%;
+    height:  530px;
+
+}
+.wrap-table100 {
+    width: 960px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 530px;
+    overflow-y: auto !important;
+    overflow-x : hidden !important;
+}
+
+
+
+.table {
+    /* display: inline-block; */
+    position: relative;
+    width: 400px;
+    float: left;
+    margin: 0 auto;
+}
+
+#radioForCheck input[type=radio]{
+    display: inline !important;
+}
+
+#radioForCheck input[type=radio]{
+    display: inline !important;
+}
+
+#radioForCheck input[type=radio]:not(old) {
+    opacity: 0;
+    width: 20px;
+}
+
+#radioForCheck input[type=radio]:not(old) + label {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    margin-left: -30px;
+    padding-left: 24px;
+    opacity: 0.5;
+    color: #fff;
+}
+
+#radioForCheck input[type=radio]:not(old):checked + label {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    margin-left: -30px;
+    padding-left: 24px;
+    opacity: 1;
+    color: #fff;
+}
+
+.row {
+    display: table-row !important;
+    /* display: -ms-flexbox; */
+    /* display: flex; */
+    /* -ms-flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 0rem !important;
+    /* color: #212529; */
+}
+
+/* .dropdown-toggle a {
+    color: #fff;
+    font-size: 1rem;
+}
+.dropdown-toggle a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.dropdown-toggle a:link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+} */
+
+.btn btn-secondary {
+    display: inline-block;
+    /*     font-weight: 400; */
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 15px !important;
+    font-weight: 400;
+    color : #fff !important;
+
+
+}
+.btn btn-secondary:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 15px;
+    font-wheight: 400;
+}
+.btn btn-secondary:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-wheight: 400;
+}
+.btn btn-secondary:link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 15px;
+    font-wheight: 400;
+}
+.btn btn-secondary:active {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-wheight: 400;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    /* float: left; */
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 15px !important;
+    font-family: 'KOMACON';
+}
+
+.dropdown show {
+    display: inline !important;
+}

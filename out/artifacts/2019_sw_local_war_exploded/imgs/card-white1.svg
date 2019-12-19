@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="307" height="453" viewBox="0 0 307 453">
+  <defs>
+    <filter id="card-white1" x="0" y="0" width="307" height="453" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#card-white1)">
+    <g id="card-white1-2" data-name="card-white1" transform="translate(7.5 4.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="5 5">
+      <rect width="292" height="438" rx="25" stroke="none"/>
+      <rect x="0.75" y="0.75" width="290.5" height="436.5" rx="24.25" fill="none"/>
+    </g>
+  </g>
+</svg>

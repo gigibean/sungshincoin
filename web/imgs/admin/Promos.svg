@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Promos" transform="translate(0 0)">
+    <rect id="rectangle" width="20" height="20" transform="translate(0 0)" fill="none"/>
+    <path id="path" d="M4.548,5.64A1.092,1.092,0,1,1,5.64,4.548,1.092,1.092,0,0,1,4.548,5.64m4-3.64H2V8.552a1.456,1.456,0,0,0,.427,1.03l6.554,6.55a1.455,1.455,0,0,0,2.059,0l5.091-5.092a1.454,1.454,0,0,0,0-2.06L9.582,2.426A1.462,1.462,0,0,0,8.551,2" transform="translate(0.72 0.72)" fill-rule="evenodd"/>
+  </g>
+</svg>

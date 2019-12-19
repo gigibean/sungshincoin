@@ -1,0 +1,9 @@
+26-Jul-2019 17:35:35.800 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jul-2019 17:37:37.631 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jul-2019 17:37:57.985 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jul-2019 17:38:23.915 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jul-2019 17:38:36.575 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jul-2019 17:38:50.424 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jul-2019 17:39:06.154 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jul-2019 17:41:39.677 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jul-2019 17:45:11.321 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received

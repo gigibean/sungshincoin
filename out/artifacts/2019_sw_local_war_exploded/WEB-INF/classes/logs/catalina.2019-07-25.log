@@ -1,0 +1,42 @@
+25-Jul-2019 13:32:44.636 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+25-Jul-2019 13:32:44.647 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+25-Jul-2019 13:32:44.647 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+25-Jul-2019 13:32:44.647 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jul-2019 13:32:44.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jul-2019 13:32:44.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+25-Jul-2019 13:32:44.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jre1.8.0_201
+25-Jul-2019 13:32:44.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+25-Jul-2019 13:32:44.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jul-2019 13:32:44.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5
+25-Jul-2019 13:32:44.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\temp
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\conf\logging.properties
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+25-Jul-2019 13:32:44.649 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-12.0.1\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Geth;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;.]
+25-Jul-2019 13:32:44.992 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Jul-2019 13:32:45.746 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2019 13:32:45.767 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2019 13:32:45.771 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Jul-2019 13:32:45.772 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2220 ms
+25-Jul-2019 13:32:45.837 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Jul-2019 13:32:45.837 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+25-Jul-2019 13:32:45.858 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\webapps\docs]
+25-Jul-2019 13:32:46.380 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\webapps\docs] has finished in [521] ms
+25-Jul-2019 13:32:46.381 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\webapps\manager]
+25-Jul-2019 13:32:46.462 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\webapps\manager] has finished in [80] ms
+25-Jul-2019 13:32:46.462 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\webapps\ROOT]
+25-Jul-2019 13:32:46.523 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 8.5\webapps\ROOT] has finished in [61] ms
+25-Jul-2019 13:32:46.528 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Jul-2019 13:32:46.582 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Jul-2019 13:32:46.589 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 816 ms
+25-Jul-2019 14:04:23.613 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+25-Jul-2019 14:05:24.422 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+25-Jul-2019 14:08:17.930 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+25-Jul-2019 14:14:03.228 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+25-Jul-2019 14:15:52.896 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received

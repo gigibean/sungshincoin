@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="60" height="60" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="iconmanage" clip-path="url(#clip-path)">
+    <rect id="Box" width="60" height="60" fill="none"/>
+    <path id="패스_2007" data-name="패스 2007" d="M45,8.8H30v14H45ZM42-22v5.6H18V-22H12v5.6H3.03L3,34H57V-16.4H48V-22Zm9,50.4H9V-2.4H51Z" transform="translate(0 24)" fill="#787dbb"/>
+  </g>
+</svg>

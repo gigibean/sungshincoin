@@ -1,0 +1,140 @@
+@font-face { font-family: 'KOMACON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {
+  background: url(../imgs/backgroundreser.svg);
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  font-family: 'KOMACON';
+  overflow: hidden;
+}
+
+#cloud-front {
+  background:url(/imgs/home-clouds-fg1.png) repeat-x 0 0 transparent;
+  width: 100%;
+  height: 687px;
+  min-height: 687px;
+  position: absolute;
+  bottom:-22%;
+  left:0;
+  z-index: -1;
+  -webkit-transform:translate3d(0,0,0.01);
+  transform:translate3d(0,0,0.01);
+  will-change: transform;
+}
+
+.screen {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  /* background: url(../imgs/shad.svg); */
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+  background-size: cover;
+  position: absolute;
+}
+
+@media (min-height: 850px) {
+  .stuff{
+    background: url(../imgs/card-white-900.svg);
+    width: 360px;
+    height: 530px;
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .stuff:hover {
+    background: url(../imgs/card-white-900-on.svg);
+  }
+  img {
+    width: 300px;
+    height: 200px;
+    position: inherit;
+    margin: 25px;
+  }
+}
+
+@media (max-height: 850px) {
+  .stuff {
+    background: url(../imgs/card-white1.svg);
+    width: 300px;
+    height: 450px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .stuff:hover {
+    background: url(../imgs/card-white-on.svg);
+  }
+  img {
+    width: 270px;
+    height: 180px;
+    position: inherit;
+    margin: 20px;
+  }
+
+}
+.stufflist {
+  vertical-align: middle;
+  top: 50%;
+  z-index: 100;
+  width:-webkit-fill-available;
+}
+
+.stuff {
+  display: inline-block;
+  vertical-align: inherit;
+  align-content: center;
+}
+
+.stuffrent{
+  display: none;
+  align-content: center;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+::-webkit-scrollbar{width: 2px;}
+/* ::-webkit-scrollbar-button:start:decrement {
+  background: url(..imgs/iconallowclos.svg);
+  width: 50px;
+  height: 50px;
+}
+::-webkit-scrollbar-button:end:increment {
+width:16px;height:16px;background:#f1ef79;} */
+.stuffname {
+  text-align: center;
+  display: block;
+  color: #fff;
+
+}
+.stuffname h3 {
+  font-size: 32px;
+}
+
+.stuffname p {
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  /*color: black;*/
+}
+
+a:visited {
+  text-decoration: none;
+  /*color: black;*/
+}
+
+a:active {
+  text-decoration: none;
+  /*color: black;*/
+}
+
+a:hover {
+  text-decoration: none;
+  /*color: black;*/
+}

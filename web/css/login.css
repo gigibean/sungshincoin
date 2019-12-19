@@ -1,0 +1,251 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body {
+    margin: 0;
+    height: 100vh;
+    color: #ffffff;
+    background-image: url(/imgs/Loginpage.svg);
+    background-size: cover;
+    resize: both;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    left: 20%;
+    /* TO DO: MAKE canvas righ */
+}
+
+.header {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    z-index: 2;
+}
+.header h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    letter-spacing: -2px;
+}
+
+.login {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    z-index: 2;
+}
+
+.user-type {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.login input[type=radio]:not(old) {
+    opacity: 0;
+    width: 24px;
+}
+
+.login input[type=radio]:not(old) + label {
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    margin-left: -48px;
+    padding-left: 24px;
+    opacity: 0.5;
+}
+
+.login input[type=radio]:not(old):checked + label {
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    margin-left: -48px;
+    padding-left: 24px;
+    opacity: 1;
+}
+
+.login input[type=text] {
+    width: 350px;
+    height: 65px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgba(255, 255, 255);
+    border-radius: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0.4;
+    margin-top : 15px;
+    margin-bottom: 3px;
+}
+
+.login input[type=password] {
+    width: 350px;
+    height: 65px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgba(255, 255, 255);
+    border-radius: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0.4;
+    margin-top:15px;
+    margin-bottom: 3px;
+}
+
+.login input[type=button] {
+    /* width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px; */
+    background: url(/imgs/iconallowforward2.svg) no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+
+.login input[type=button]:hover {
+    opacity: 0.8;
+}
+
+.login input[type=button]:active {
+    opacity: 0.6;
+}
+
+.login input[type=text]:focus {
+    outline: none;
+    width: 350px;
+    height: 65px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgba(255, 255, 255);
+    border-radius: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    opacity: 1;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.login input[type=password]:focus {
+    outline: none;
+    width: 350px;
+    height: 65px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgba(255, 255, 255);
+    border-radius: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    opacity: 1;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.login input[type=button]:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+::-moz-input-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    outline: none;
+    width: 350px;
+    height: 65px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgba(255, 255, 255) !important;
+    border-radius: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    opacity: 1;
+    -webkit-text-fill-color: none;
+}
+
+.modal-footer {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    justify-content: center;
+    color: #fff;
+    border-top : 0px solid rgba(0,0,0,0);
+}
+
+.user-type {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.modal-footer a {
+    color: #fff;
+}
+.modal-footer a:hover {
+    color: #fff;
+}
+.modal-footer a:visited {
+    color: #fff;
+}
+.modal-footer a:focus {
+    color: #fff;
+}
+.modal-footer a:active {
+    color: #fff;
+}

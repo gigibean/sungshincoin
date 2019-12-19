@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    height: 100vh;
+    color: #ffffff;
+    background-image: url(/imgs/background4.svg);
+    background-size: cover;
+    resize: both;
+    overflow: hidden;
+}
+
+.mouse-circle {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: -20px;
+    left: 10px;
+    transform: translateX(-30px) translateY(-30px);
+    pointer-events: none;
+    z-index: 9999;
+    -webkit-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+}
+.mouse-circle svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition: 600ms all cubic-bezier(.23,1,.32,1);
+    transition: 600ms all cubic-bezier(.23,1,.32,1);
+}
+
+.mouse-circle svg circle {
+    width: 20px;
+    height: 20px;
+    -webkit-transition: 600ms all cubic-bezier(.23,1,.32,1);
+    transition: 600ms all cubic-bezier(.23,1,.32,1);
+}
+
+
+header {
+    margin: 30px 50px;
+    position: fixed;
+}
+
+#main_threejs_goo_scene {
+    background: url(/imgs/home-clouds-fg.png) left center;
+    z-index: 1;
+}
+
+canvas {
+    display: block;
+}
+
+#cloud-front {
+    background:url(/imgs/home-clouds-fg1.png) repeat-x 0 0 transparent;
+    width: 100%;
+    height: 687px;
+    min-height: 687px;
+    position: absolute;
+    bottom:-25%;
+    left:0;
+    z-index: 1;
+    -webkit-transform:translate3d(0,0,0.01);
+    transform:translate3d(0,0,0.01);
+    will-change: transform;
+}
+
+.mouseover {
+    margin: 0;
+    position: fixed;
+    left: 31%;
+    top: 9%;
+    height: 470px;
+    width: 470px;
+    z-index: 10;
+}
+.mouseover:hover {
+    cursor: url(/imgs/mouseover.svg), pointer;
+}

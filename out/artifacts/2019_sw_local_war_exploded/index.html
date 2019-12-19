@@ -1,0 +1,85 @@
+<!-- 홈페이지 메인 -->
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>성신코인</title>
+    <link rel="icon" type="image/png" href="imgs/sujunggoo.png"/>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navForSt.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/102/three.js"></script>
+<script src="js/obj.js"></script>
+<script src="js/mtl.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+<!-- following mouse x,y circle -->
+<div class="mouse-circle">
+    <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- <path d="M75,100 C88.8071187,100 100,88.8071187 100,75 C100,61.1928813 88.8071187,50 75,50 C61.1928813,50 50,61.1928813 50,75 C50,88.8071187 61.1928813,100 75,100 Z"></path> -->
+        <circle r="10" stroke="white" stroke-width="2" fill="white" />
+    </svg>
+</div>
+<!-- TO DO: header(logo, ui) -->
+<header>
+    <a href="index.jsp">
+        <img src="imgs/logo/logiForMain.svg" style="z-index: 1000; width:172px;">
+    </a>
+</header>
+
+<!-- <picture id="cloud-back" class="cloud">
+  <source data-srcset="imgs/home-clouds-bg.png" type="imge/png" media="(min-width: 1025px)"
+  srcset="imgs/home-clouds-bg.png">
+  <img
+    id="cloud-back-picture"
+    src="imgs/home-clouds-bg.png"
+    alt="a cloud">
+</picture> -->
+
+<div id="cloud-back">
+</div>
+
+<!-- main threejs goo scene -->
+<div id=main_threejs_goo_scene>
+</div>
+<!-- cloudFont -->
+<div id="cloud-front" class="cloud">
+</div>
+
+<a href="login.html">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="mouseover">
+        <circle cx="50%" cy="50%" r="235" stroke="white" stroke-width="0" opacity="1" fill="none" class="moCircle"/>
+    </svg>
+</a>
+
+<!-- TO DO: footer(facebook, google etc. social service ? or just right) -->
+<footer>
+
+</footer>
+<!-- javascript code here -->
+<script type="text/javascript" src="js/moveClouds.js"></script>
+<script type="text/javascript" src="js/goo1.js"></script>
+<script type="text/javascript" src="js/mouse.js"></script>
+<script type="text/javascript" src="http://www.shawnolson.net/scripts/public_smo_scripts.js"></script>
+
+</body>
+</html>

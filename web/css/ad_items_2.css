@@ -1,0 +1,136 @@
+@media(min-width: 900px) {
+    .categoryList {
+        height: 80%;
+        display: block;
+        position: fixed;
+        margin-left: 30px;
+        padding-top: 10px;
+        margin-right: 10%;
+        overflow-y: auto;
+        margin-bottom: 50px;
+    }
+
+    .contents {
+        width: 75%;
+        float: 75%;
+        position: relative;
+        overflow: scroll;
+    }
+
+    .totalCounter {
+        text-align: right;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    .totalCounterForm input{
+        float: right;
+    }
+
+    .categoryOnOff1 {
+        padding-left: 15px;
+        padding-top: 30px;
+        font-size: 20px;
+        background: url(../imgs/categoryOn1.svg);
+        width: 363px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .categoryOnOff0 {
+        padding-left: 15px;
+        padding-top: 30px;
+        font-size: 17px;
+        background: url(../imgs/categoryOff.svg);
+        width: 300px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .columnCategory {
+        width: 35%;
+        height: 100vh;
+        flex: 35%;
+    }
+
+    .rowForCategory {
+        content: "";
+        /* display: table; */
+        display: flex;
+        /*     clear: both; */
+        width: 100%;
+    }
+}
+
+@media(max-width: 900px) {
+    body {
+        overflow: auto !important;
+    }
+
+    .contents {
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+    .categoryList {
+        height: 80%;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .categoryOnOff1 {
+        padding-left: 15px;
+        padding-top: 30px;
+        font-size: 20px;
+        background: url(../imgs/categoryOn1.svg);
+        width: 300px;
+        height: 80px;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .categoryOnOff0 {
+        padding-top: 30px;
+        font-size: 17px;
+        background: url(../imgs/categoryOff.svg);
+        width: 300px;
+        height: 80px;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .allCategory {
+        margin: 0 auto;
+    }
+
+    .rowForCategory {
+        content: "";
+        display: table;
+        width: 100%;
+    }
+}
+
+input[type=button] {
+     border: none;
+     background-color: transparent;
+ }
+
+input[type=button]:hover {
+    border: none;
+    background-color: transparent;
+    opacity: 0.6;
+
+}
+
+input[type=button]:active {
+    border: none;
+    background-color: transparent;
+    opacity: 0.4;
+}

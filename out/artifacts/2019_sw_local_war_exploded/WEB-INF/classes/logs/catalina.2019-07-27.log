@@ -1,0 +1,3 @@
+27-Jul-2019 23:26:16.017 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+27-Jul-2019 23:34:52.914 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+27-Jul-2019 23:52:26.725 경고 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received

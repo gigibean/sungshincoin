@@ -1,0 +1,176 @@
+body, main {
+    background-color: #EFF3F4 !important;
+}
+
+@font-face {
+    font-family: 'KOMACON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'KOMACON';
+}
+
+.stuff {
+    background: url(../imgs/card-white.svg);
+    width: 300px;
+    height: 450px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.stuff:hover {
+    background: url(../imgs/card-white.svg);
+}
+
+.stuff img {
+    width: 270px;
+    height: 180px;
+    position: inherit;
+    margin: 20px;
+    background: #888;
+
+}
+
+.stuffPlus img {
+    width: 270px;
+    height: 180px;
+    position: inherit;
+    margin: 20px;
+    background: none;
+    
+}
+.stufflist {
+    vertical-align: middle;
+    top: 50%;
+    z-index: 100;
+    margin-top: -200px;
+}
+
+.stuff {
+    display: inline-block;
+    vertical-align: inherit;
+    align-content: center;
+}
+
+.stuffrent {
+    display: none;
+    align-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.stuffname {
+    text-align: center;
+    display: block;
+}
+
+.stuffname h3 {
+    font-size: 32px;
+}
+
+.stuffname p {
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.formForCategory input[type=text] {
+    color: #000 !important;
+}
+
+.stuffname input[type=button] {
+    margin: 0 auto;
+    border: none;
+    background: none;
+    color: #000;
+    font-family: 'KOMACON';
+    font-weight: 500;
+}
+
+.formForCategory input[type=text] {
+    /*margin: 0 auto;*/
+    border: none;
+    background: none;
+    color: #000;
+    font-family: 'KOMACON';
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    /*float: right; */
+    width: 80px;
+    margin-right: 0%;
+    display: inline-block;
+}
+
+.formForCategory input[type=submit] {
+    /*clear: both;*/
+    background: url(../imgs/buttonForChangeDeposit.svg);
+    width: 290px;
+    height: 57px;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 6px;
+    color: #fff;
+}
+
+.cate_title {
+    font-size: 35px !important;
+    font-weight: bold !important;
+    font-family: 'KOMACON' !important;
+    margin-bottom: 150px !important;
+}
+
+.stuffPlus {
+    /*display: none;*/
+    align-content: center;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.eraseCategory {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.eraseCategory p {
+    font-size: 14px !important;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 5px;
+}
+
+.plusCategory {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.plusCategory p {
+    font-size: 14px !important;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 5px;
+}

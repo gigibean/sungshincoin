@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.221" height="64.221" viewBox="0 0 64.221 64.221">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="64.221" height="64.221" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="stuffMn" transform="translate(-232 -578)">
+    <g id="Icon_Add_Sharp" data-name="Icon / Add / Sharp" transform="translate(232 578)" clip-path="url(#clip-path)">
+      <rect id="Box" width="64.221" height="64.221" fill="none"/>
+      <rect id="사각형_392" data-name="사각형 392" width="2" height="25.687" transform="translate(44.687 31) rotate(90)"/>
+    </g>
+    <g id="타원_3" data-name="타원 3" transform="translate(236 582)" fill="none" stroke="#000" stroke-width="1">
+      <circle cx="27.722" cy="27.722" r="27.722" stroke="none"/>
+      <circle cx="27.722" cy="27.722" r="27.222" fill="none"/>
+    </g>
+  </g>
+</svg>

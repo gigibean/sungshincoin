@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1932" height="92" viewBox="0 0 1932 92">
+  <defs>
+    <filter id="navbarAd" x="0" y="0" width="1932" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.58"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#navbarAd)">
+    <path id="navbarAd-2" data-name="navbarAd" d="M1920,0H0V80H1920Z" transform="translate(6 1)" fill="#7c7c7c" fill-rule="evenodd"/>
+  </g>
+</svg>

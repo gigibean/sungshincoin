@@ -1,0 +1,55 @@
+.exchange input[type=text] {
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgb(0,0,0) !important;
+    border-radius: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: #000;
+    opacity: 0.4;
+    margin-top : 15px;
+    margin-bottom: 3px;
+}
+
+.exchange input[type=text]:focus {
+    outline: none;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgb(0,0,0) !important;
+    border-radius: 2px;
+    font-family: 'KOMACON';
+    font-size: 18px;
+    color: #000;
+    opacity: 1;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
+.exchange input[type=button] {
+    border-color: #272727;
+    border-width: 1.5px;
+    background: none;
+    border-style: solid;
+    color: #272727;
+    width: 100px;
+    height: 50px;
+    opacity: 0.7;
+    font-size: 18px;
+}
+
+.exchange input[type=button]:focus {
+    outline: none;
+    opacity: 1;
+}
+
+.exchange:hover {
+    opacity: 0.9;
+}

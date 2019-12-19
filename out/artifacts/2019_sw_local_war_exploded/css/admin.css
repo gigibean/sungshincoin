@@ -1,0 +1,61 @@
+@font-face { font-family: 'KOMACON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body {
+    background-color: #EFF3F4 !important;
+    margin: 0;
+}
+
+.header {
+    background: url(/imgs/admin/navbarAd.png);
+    width: 103%;
+    height: 92px;
+    top: -8px;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 0;
+    margin-left: -8px;
+}
+
+.dropDown {
+    cursor: pointer;
+}
+
+.sidebar-brand-drop {
+    /* background: url(../imgs/admin/sidebar-brand-drop.svg); */
+    background-color: #EFF3F4;
+    width: 320px;
+    height: 180px;
+    display: none;
+}
+
+#dropupImg {
+    display: none;
+}
+
+.navbar {
+    box-shadow: 3px 0 4px rgba(0,0,0,0.2);
+}
+
+.sidebar-brand p {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+::-webkit-scrollbar{width: 2px;}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+

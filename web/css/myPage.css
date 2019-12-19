@@ -1,0 +1,63 @@
+@font-face { font-family: 'KOMACON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {
+    background: url(../imgs/backgroundreser.svg);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    font-family: 'KOMACON';
+    overflow: hidden;
+}
+
+#cloud-front {
+    background:url(/imgs/home-clouds-fg1.png) repeat-x 0 0 transparent;
+    width: 100%;
+    height: 687px;
+    min-height: 687px;
+    position: absolute;
+    bottom:-22%;
+    left:0;
+    z-index: -1;
+    -webkit-transform:translate3d(0,0,0.01);
+    transform:translate3d(0,0,0.01);
+    will-change: transform;
+}
+.cardlist {
+    /* align-content: center; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: center;
+    top: 20%;
+    position: relative;
+    /*margin-top: -115px;*/
+    width: -webkit-fill-available;
+}
+.cardForMyPage {
+    background: url(../imgs/card_mypage.svg);
+    width: 365px;
+    height: 430px;
+    display: inline-block;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    /* text-align: center; */
+    position: relative;
+    vertical-align: middle;
+}
+
+::-webkit-scrollbar{width: 2px;}
+
+h3{
+    display: inline;
+    position: relative;
+    /*top: -50px;*/
+    color:#787DBB;
+    font-size: 30px;
+}
+
+.cardtitle p {
+    text-align: left;
+    margin-left: 70px;
+     margin-top:20px;
+     position: relative;
+    color: #66687D;
+}

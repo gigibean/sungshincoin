@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="2019_sw_local:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/2019_sw_local_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="2019_sw_local/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="2019_sw_local" />
+          <element id="library" level="project" name="Tomcat 8" />
+          <element id="library" level="application" name="bootstrap" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="library" level="project" name="mysql-connector-java-5.1" />
+          <element id="library" level="project" name="cos" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar" />
+          <element id="library" level="project" name="javax.mail" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

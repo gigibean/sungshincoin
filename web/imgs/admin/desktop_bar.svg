@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1938" height="98" viewBox="0 0 1938 98">
+  <defs>
+    <filter id="navbarAd" x="0" y="0" width="1938" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="desktop_bar" transform="translate(9 -26)">
+    <g transform="matrix(1, 0, 0, 1, -9, 26)" filter="url(#navbarAd)">
+      <path id="navbarAd-2" data-name="navbarAd" d="M1920,0H0V80H1920Z" transform="translate(9 6)" fill="#656e74" fill-rule="evenodd"/>
+    </g>
+    <g id="ic_x5F_search_x0D__copy" transform="translate(1848 54)">
+      <g id="그룹_294" data-name="그룹 294" transform="translate(4.5 4.5)">
+        <g id="그룹_293" data-name="그룹 293">
+          <path id="패스_84" data-name="패스 84" d="M21.75,19.5h-1.2l-.45-.45a9.389,9.389,0,0,0,2.4-6.3,9.75,9.75,0,1,0-9.75,9.75,9.389,9.389,0,0,0,6.3-2.4l.45.45v1.2l7.5,7.5L29.25,27Zm-9,0a6.75,6.75,0,1,1,6.75-6.75A6.722,6.722,0,0,1,12.75,19.5Z" transform="translate(-3 -3)" fill="#fff"/>
+        </g>
+      </g>
+      <rect id="사각형_163" data-name="사각형 163" width="36" height="36" fill="none"/>
+    </g>
+  </g>
+</svg>

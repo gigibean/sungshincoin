@@ -1,0 +1,344 @@
+@font-face { font-family: 'KOMACON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {
+    background: url(../imgs/backgroundreser.svg);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    font-family: 'KOMACON';
+    overflow: hidden;
+}
+
+#cloud-front {
+    background:url(../imgs/home-clouds-fg1.png) repeat-x 0 0 transparent;
+    width: 100%;
+    height: 687px;
+    min-height: 687px;
+    position: absolute;
+    bottom:-22%;
+    left:0;
+    z-index: -1;
+    -webkit-transform:translate3d(0,0,0.01);
+    transform:translate3d(0,0,0.01);
+    will-change: transform;
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    left: 230px;
+    top: 170px;
+    z-index: -2;
+    /* TO DO: MAKE canvas righ */
+}
+
+.suryong img {
+    display: inline-block;
+    position: fixed;
+    left: 62%;
+    top: 14%;
+    z-index: -2;
+}
+
+@media (min-height: 916px) {
+    .maincard {
+        background: url(../imgs/maincard.png);
+        width: 838px;
+        height: 816px;
+        margin-top : -360px;
+        margin-left: -15px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        text-align: center;
+    }
+    .maincard img {
+        width:60px; height:60px; display:inline-block; margin: 30px; margin-left: 20px; margin-top: 50px; position: relative;
+    }
+    .change input {
+        margin-top : 45px;
+    }
+
+    .change input[type=text] {
+        width: 350px;
+        height: 30px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 0.7;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .change input[type=password] {
+        font-family: 'Roboto', sans-serif;
+        width: 350px;
+        height: 30px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 0.7;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .change input[type=email] {
+        width: 350px;
+        height: 30px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 0.7;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .change input[type=text]:focus {
+        outline: none;
+        width: 350px;
+        height: 30px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 1;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .change input[type=password]:focus {
+        font-family: 'Roboto', sans-serif;
+        outline: none;
+        width: 350px;
+        height: 30px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 1;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .change input[type=email]:focus {
+        outline: none;
+        width: 350px;
+        height: 30px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 1;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .submitlast {
+        border-color: #272727;
+        border-width: 1.5px;
+        background: none;
+        border-style: solid;
+        color: #272727;
+        width: 350px;
+        height: 50px;
+        opacity: 0.7;
+        font-size: 18px;
+    }
+
+    .submitlast:focus {
+        outline: none;
+        opacity: 1;
+    }
+
+    .submitlast:hover {
+        opacity: 0.9;
+    }
+    .header h3 {
+        display: inline;
+        position: relative;
+        top: 20px;
+        color:#787DBB;
+        font-size: 40px;
+    }
+}
+
+@media (max-height: 916px) {
+    .maincard {
+        background: url(../imgs/maincardS.png);
+        width: 838px;
+        height: 630px;
+        margin-top : -280px;
+        margin-left: -15px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .maincard img {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        margin: 10px;
+        margin-left: 20px;
+        margin-top: 30px;
+        position: relative;
+    }
+    .change input {
+        margin-top : 45px;
+    }
+
+    .change input[type=text] {
+        width: 350px;
+        height: 45px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 0.7;
+        margin-top: 15px;
+        margin-bottom: 3px;
+    }
+
+    .change input[type=password] {
+        font-family: 'Roboto', sans-serif;
+        width: 350px;
+        height: 45px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 0.7;
+        margin-top: 15px;
+        margin-bottom: 3px;
+    }
+
+    .change input[type=email] {
+        width: 350px;
+        height: 45px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 0.7;
+        margin-top: 15px;
+        margin-bottom: 3px;
+    }
+
+    .change input[type=text]:focus {
+        outline: none;
+        width: 350px;
+        height: 45px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 1;
+        margin-top: 15px;
+        margin-bottom: 3px;
+    }
+    .change input[type=password]:focus {
+        font-family: 'Roboto', sans-serif;
+        outline: none;
+        width: 350px;
+        height: 45px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 1;
+        margin-top: 15px;
+        margin-bottom: 3px;
+    }
+
+    .change input[type=email]:focus {
+        outline: none;
+        width: 350px;
+        height: 45px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #272727;
+        border-radius: 2px;
+        font-size: 24px;
+        color: #272727;
+        opacity: 1;
+        margin-top: 15px;
+        margin-bottom: 3px;
+    }
+
+    .submitlast {
+        border-color: #272727;
+        border-width: 1.5px;
+        background: none;
+        border-style: solid;
+        color: #272727;
+        width: 350px;
+        height: 50px;
+        opacity: 0.7;
+        font-size: 18px;
+    }
+
+    .submitlast:focus {
+        outline: none;
+        opacity: 1;
+    }
+
+    .submitlast:hover {
+        opacity: 0.9;
+    }
+    .header h3 {
+        display: inline;
+        position: relative;
+        top: 20px;
+        color:#787DBB;
+        font-size: 30px;
+    }
+
+}

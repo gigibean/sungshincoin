@@ -1,0 +1,61 @@
+.usercardlist {
+    width: 1410px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 126px;
+    background-color: #EFF3F4 !important;
+}
+
+.usercard {
+    /* display: inline-block; */
+    position: relative;
+    width: 400px;
+    height: 498px;
+    float: left;
+    margin: 15px;
+}
+
+.eachcard {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    width: 418px;
+    /* height: 498px; */
+}
+
+.eachbutton {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.eachcard {
+    background: url(../imgs/admin/cardForuser.svg);
+    width: 400px;
+    height: 148.8px;
+    color: rgb(44, 44, 44);
+}
+
+.processdonebtn {
+    background: url(../imgs/admin/buttonForuser.svg);
+    width: 400px;
+    height: 68.8px;
+    border-color: rgba(173, 165, 165,0);
+    border-style: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.processdonebtn:focus {
+    outline: none;
+    opacity: 0.7;
+}
+
+.processdonebtn:hover {
+    opacity: 0.7;
+}
+
+.eachcard {
+    font-size: 15px;
+    padding: 10px 10px 10px 15px;
+}
